@@ -10,6 +10,7 @@ The devices in the list are passed one at a time with the password and enable pa
 The expect script contains a section at the bottom where you can build the commands required to configure the equipment, for example:
 
 Enter your commands here.
+
 send "Some Command here\n"
 expect "(config)#"
 send "some other command here\n"
