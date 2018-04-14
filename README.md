@@ -10,11 +10,12 @@ The devices in the list are passed one at a time with the password and enable pa
 The expect script contains a section at the bottom where you can build the commands required to configure the equipment, for example:
 
 Enter your commands here.
-
+```
 send "Some Command here\n"
 expect "(config)#"
 send "some other command here\n"
 expect "(config)#"
+```
 
 I have found it best to manually configure one device first and make note of the change in prompt depending on the command entered, this way it is easier to build the script if you know what to expect (no pun intended)
 
