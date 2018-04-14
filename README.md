@@ -7,6 +7,8 @@ In additional to the 2 files here, you will need a file called device-list.txt c
 
 The devices in the list are passed one at a time with the password and enable password to the Expect script (configure-cisco.exp)
 
+You need to specify (or remove completely) the section relating to a log file location so you can capture a log of the changes to each device. I also have a section at the bottom of the configure-cisco.sh script to send a notification to Slack using JarJar (https://github.com/AusterweilLab/jarjar) so I get a notification to A) confirm the script has finished and B) let me know the name of the log file to look at to search for errors etc..
+
 The expect script contains a section at the bottom where you can build the commands required to configure the equipment, for example:
 
 Enter your commands here.
