@@ -1,4 +1,4 @@
-# ciscoexpectscript
+# Cisco Expect Script
 Expect Script for bulk configuration of Cisco Routers / Switches
 
 Based on Paul Gerard Porter's post and script for bulk configuration of Cisco routers and switches - https://paulgporter.net/2012/12/08/30/
@@ -9,7 +9,7 @@ The devices in the list are passed one at a time with the password and enable pa
 
 The expect script contains a section at the bottom where you can build the commands required to configure the equipment, for example:
 
-# Enter your commands here.
+Enter your commands here.
 send "Some Command here\n"
 expect "(config)#"
 send "some other command here\n"
